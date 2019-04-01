@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.melasin.simple_ussd.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btussd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:textSize="25sp"
+        android:text="click on button" />
+
     <Button
         android:id="@+id/btussd"
         android:layout_width="70dp"
